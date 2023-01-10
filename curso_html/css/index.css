@@ -26,7 +26,7 @@ a {
 
 a::before {
   content: "";
-  background-color: #f25a70;
+  background-color: #ff5a70;
   width: 10px;
   height: 10px;
   margin-right: 10px;
@@ -41,10 +41,16 @@ a::before {
   padding-right: 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
-  transition: transform 100ms linear;
+  transition: 200ms linear;
 }
 
 #button:hover {
   transform: scale(1.1);
   background-color: #ff0000;
+}
+
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 40px;
+  color: #f25a70;
 }
