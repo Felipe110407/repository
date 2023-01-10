@@ -48,9 +48,3 @@ a::before {
   transform: scale(1.1);
   background-color: #ff0000;
 }
-
-h1 {
-  font-family: "Press Start 2P", sans-serif;
-  font-size: 40px;
-  color: #f25a70;
-}
