@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.action ::before {
+.action::before {
   content: "";
   background-color: #ff5a70;
   width: 10px;
